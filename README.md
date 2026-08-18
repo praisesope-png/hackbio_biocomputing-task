@@ -228,11 +228,3 @@ Acknowledgements
 This project was completed as part of the HackBio Internship.
 
 The biological sequence datasets used in Project 1 were provided through the HackBio Bash NGS Starters repository.
-
----
-
-Author
-
-Praise Sope
-
-Stage 0 — Bash & Bioinformatics Fundamentals
