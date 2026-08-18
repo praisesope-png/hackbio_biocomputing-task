@@ -6,17 +6,12 @@ The projects were completed using the Linux terminal in Google Cloud Shell, with
 
 ---
 
-Repository Contents
+** Repository Contents
 
-text
 .
-  ├── Project1/
-  │   └── project1.sh
-  ├── Project2/
-  │   └── project2.sh
-  └── README.md
-
-The exact folder and file names may vary depending on the final repository structure.
+├── Project_1_Bash_Basic.sh
+├── Project_2_Bioinformatics_Software.sh
+└── README.md
 
 ---
 
