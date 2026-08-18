@@ -1,2 +1,23 @@
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh # Download Miniconda installer
+bash Miniconda3-latest-Linux-x86_64.sh # Run Miniconda installer
+source ~/.bashrc # Reload Bash configuration
+conda --version # Check that Conda is installed
+conda activate base # Activate the base Conda environment
+ls -ld ~/miniconda3 # Confirm the Miniconda installation directory
+conda activate base # Activate the base Conda environment
+conda create -n funtools # Create the funtools Conda environment
+conda activate funtools # Activate the funtools environment
+sudo apt-get update # Update the system package list
+sudo apt-get install figlet # Install Figlet
+figlet praise_sope # Display name using Figlet
+conda config --add channels defaults # Add the defaults Conda channel
+conda config --add channels bioconda # Add the Bioconda channel
+conda config --add channels conda-forge # Add the Conda-Forge channel
+conda install -c bioconda bwa # Install BWA from Bioconda
+conda install -c bioconda blast # Install BLAST from Bioconda
+conda install -c bioconda samtools # Install SAMtools from Bioconda
+conda install -c bioconda bedtools # Install BEDTools from Bioconda
+conda install -c bioconda spades # Install SPAdes from Bioconda
+conda install -c bioconda bcftools # Install BCFtools from Bioconda
+conda install -c bioconda fastp # Install fastp from Bioconda
+conda install -c bioconda multiqc # Install MultiQC from Bioconda
