@@ -10,11 +10,11 @@ Repository Contents
 
 text
 .
-├── Project1/
-│   └── project1.sh
-├── Project2/
-│   └── project2.sh
-└── README.md
+  ├── Project1/
+  │   └── project1.sh
+  ├── Project2/
+  │   └── project2.sh
+  └── README.md
 
 The exact folder and file names may vary depending on the final repository structure.
 
@@ -240,5 +240,4 @@ Author
 
 Praise Sope
 
-HackBio Intern  
 Stage 0 — Bash & Bioinformatics Fundamentals
